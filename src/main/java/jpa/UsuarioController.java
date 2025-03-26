@@ -33,7 +33,7 @@ public class UsuarioController extends HttpServlet {
 			
 			if (op.equals("cadastrar")) {
 				UsuarioDao.cadastrar(nome, login, senha);
-				msg = "Inclusão realizada com sucesso.";
+				msg = "Cadastro realizado com sucesso.";
 		
 
 			} else if (op.equals("")) {

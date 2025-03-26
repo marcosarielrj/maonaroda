@@ -50,6 +50,7 @@
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in" style="color: black">Cadastre-se!</div>
+          <div class="intro-lead-in" style="color: black">${msg}</div>
         </div>
       </div>
     </header>
@@ -60,7 +61,7 @@
                 <div class="col-lg-8 col-md-10 mx-auto">
                         <p></p>
                         <b>${msg}</b>
-                        <form>
+                        <form method="post">
                           <div class="control-group">
                             <div class="form-group floating-label-form-group controls">
                               <label>Nome</label>
@@ -88,7 +89,7 @@
                           <br>
                           <div id="success"></div>
                           <div class="form-group">
-                            <button name="operacao" value="cadastrar" class="btn btn-secondary">Cadastrar</button>
+                            <button name="operacao" value="cadastrar" class="btn btn-secondary" type="submit">Cadastrar</button>
                           </div>
                         </form>
                       </div>

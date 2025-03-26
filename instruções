@@ -6,4 +6,4 @@ mvn clean install --- dentro da pasta mao na rodapra criar as pastas maven
 
 mvn exec:java@derby-start
 
-mvn tomcat7:run
+navegar até a pasta maonaroda no terminal e executar --- mvn tomcat7:run

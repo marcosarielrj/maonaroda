@@ -1,0 +1,9 @@
+instalar chocolatey - winget install chocolatey
+
+instalar maven - choco install maven
+
+mvn clean install --- dentro da pasta mao na rodapra criar as pastas maven
+
+mvn exec:java@derby-start
+
+mvn tomcat7:run

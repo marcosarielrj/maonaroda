@@ -21,7 +21,6 @@ public class UsuarioDao {
 		// Obter "conexão".
 		EntityManager em = emf.createEntityManager();
 		em.getTransaction().begin();
-		String msg = "";
 		
 		Usuario pesq = em.find(Usuario.class, login);
 		
@@ -35,8 +34,6 @@ public class UsuarioDao {
 		}
 		if(login.equals(pesq.getLogin())){
 
-			msg = "Login já cadastrado.";
-	
 			
 		}else {
 
